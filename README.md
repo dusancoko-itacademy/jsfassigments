@@ -1,2 +1,2 @@
-# jsfassigments
-Kolekcija zadataka sa rešenjima i za samostalni rad. Tekstovi zadataka vidljivi u readme-u.
+# ITAcademy - Javascript Frontend Development kurs
+## Zadaci za samostalni rad i rešeni zadaci

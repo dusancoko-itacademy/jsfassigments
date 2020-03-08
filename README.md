@@ -1,19 +1,19 @@
 # ITAcademy - Javascript Frontend Development kurs
 ## Zadaci za samostalni rad i rešeni zadaci
 
-#### Zadatak 1
+### Zadatak 1
 
 Napisati program koji radi konverziju celzijusa u farenhajte. Korisnik unosi vrednost celzijusa u input polje, a vrednost farenhajta se prikazuje u okviru paragrafa. Konverzija se pokreće klikom na dugme "Konvertuj". Za samu konverziju potrebno je napisati funkciju **c2f** koja prihvata kao argument vrednost celzijusa, a vraća vrednost farenhajta.
 
 **Pomoć:** [Formula za konverziju](https://www.rapidtables.com/convert/temperature/how-celsius-to-fahrenheit.html)
 
-#### Zadatak 2
+### Zadatak 2
 
 Napisati program koji radi konverziju celzijusa u farenhajte. Korisnik unosi vrednost celzijusa u input polje, a vrednost farenhajta se prikazuje u okviru paragrafa. Konverzija se pokreće onog trenutka kada korisnik u input unese numeričku vrednost. Ne treba pokretati vrednost ako je vrednost input polja prazna. Za samu konverziju potrebno je napisati funkciju **c2f** koja prihvata kao argument vrednost celzijusa, a vraća vrednost farenhajta.
 
 **Pomoć:** [Formula za konverziju](https://www.rapidtables.com/convert/temperature/how-celsius-to-fahrenheit.html)
 
-#### Zadatak 3
+### Zadatak 3
 
 Napisati program koji radi računanje i zapremine određenih geometrijskih tela. Geomatrijska tela koja su na raspolaganju su valjak, kupa, lopta i kvadar. Za računanje korisnik ima mogućnost izbora tela čiju površinu i zapreminu želi da izračuna i koristi radio grupu da izabere telo. U zavisnosti od izbora tela treba da se pojave odgovarajuća polja za unos:
 

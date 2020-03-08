@@ -27,3 +27,31 @@ Treba voditi računa o iskoristivosti koda. Ne želite da svaki element ima svoj
 Na kraju rezultate je potrebno prikazati u paragrafu.
 
 **Pomoć**: [Formule za površinu i zapreminu geometrijskih tela](https://www.opsteobrazovanje.in.rs/matematika/osnovna-skola/povrsine-i-zapremine-geometrijskih-tela/)
+
+### Zadatak 4
+
+Napisati program koji pomaže prodavcu obračun troškova za slanje robe. Paketi se pakuju kao kvadri. Od prodavca se traži da za paket unese zapreminu (m³) i težinu (kg) za paket koji šalje. Takođe prodavac ima izbor službe za slanje iz padajuće liste:
+ - Economy
+ - Small packets
+ - Standard Shipping
+ - Premium Shipping
+ - UPS
+
+U zavisnosti od izbora potrebno je proveriti da li se paket može uopšte slati:
+ - Economy - prihvata pošiljke čija zapremina ne prelazi 1m³, i koji nisu teži od 1kg.
+ - Small packets - prihvata pošiljke čija zapremina ne prelazi 500cm³ i nisu teži od 500g.
+ - Standard - prihvata pošiljke čija zapremina ne prelazi 3m³ i koji nisu teži od 5kg.
+ - Premium - prihvata pošiljke čija zapremina ne prelazi 10m³ i koji nisu teži od 20kg.
+ - UPS - prihvata sve pošiljke.
+
+Nakon unetih izbora treba izračunati troškove slanja. Troškovi slanja paketa se obračunavaju po težini paketa, ne po zapremini i tabela izgleda ovako:
+
+| Način slanja  | <= 500g | 501g - 1kg | 1kg - 5kg | 5kg - 10kg | 10kg+ |
+| --- | --- | --- | --- | --- | --- |
+| Economy  | 10RSD/50g | 9RSD/50g | / | / |
+| Small packets  | 5RSD/50g | / | / | / | / |
+| Standard Shipping  | 20RSD/50g | 18RSD/50g | 15RSD/50g | / | / |
+| Premium Shipping  | 50RSD/50g | 45RSD/50g | 30RSD/50g | 25RSD/50g | 23RSD/50g |
+| UPS  | 500RSD | 1200RSD | 60RSD/50g | 55RSD/50g | 100RSD/200g |
+
+Računanje se izvršava klikom na dugme "Troškovi slanja". Podaci treba za računanje treba da se čuvaju kao objekti koji su deo niza i na osnovu izabrane opcije iz padajuće liste (hint: value čuvajte kao indeks niza) potrebno je da se iskoriste za računanje cene slanja. Svi podaci o ograničenju i cenama slanja trebaju biti u okviru objekta. Vama se ostavlja izbor dizajna strukture samih objekata.
